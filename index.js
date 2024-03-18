@@ -27,10 +27,10 @@ function createAccount() {
   };
 
   const data = {
-    name: "Kamakhyaa Kalra",
-    email: "kamakhyaa0713.be21@chitkara.edu.in",
-    rollNumber: 2110990713,
-    phone: 8950460728,
+    name: "Vanshika Narula",
+    email: "vanshika1866.be21@chitkara.edu.in",
+    rollNumber: 2110991866,
+    phone: 9671935806,
   };
 
   axios
@@ -53,7 +53,7 @@ function buyStocks(accountNumber) {
   const config = {
     headers: {
       "Content-Type": "application/json",
-      "bfhl-auth": 2110990713,
+      "bfhl-auth": 2110991866,
     },
   };
 
@@ -61,7 +61,7 @@ function buyStocks(accountNumber) {
     company: "Bajaj Finance Ltd",
     currentPrice: 6544.2,
     accountNumber,
-    githubRepoLink: "https://github.com/Vanshika-Narula/bajaj_salesforce",
+    githubRepoLink: "https://github.com/Vanshika-Narula/bajaj",
   };
 
   axios
